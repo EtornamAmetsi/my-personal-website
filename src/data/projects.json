@@ -1,0 +1,16 @@
+[
+  {
+    "id": "safetymonitor",
+    "title": "SafetyMonitor",
+    "description": "Open-source runtime monitor for AV perception pipelines. Pluggable anomaly detectors with ROS2 integration.",
+    "tags": ["Python", "ROS2", "C++"],
+    "links": { "github": "https://github.com/yourname/safetymonitor", "docs": "https://safetymonitor.dev" }
+  },
+  {
+    "id": "scenediff",
+    "title": "SceneDiff",
+    "description": "Diffusion-based adversarial scenario generator for AV testing. Companion code for ITSC 2023 paper.",
+    "tags": ["PyTorch", "CARLA", "Python"],
+    "links": { "github": "https://github.com/yourname/scenediff" }
+  }
+]

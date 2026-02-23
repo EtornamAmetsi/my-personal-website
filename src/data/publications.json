@@ -1,0 +1,29 @@
+[
+  {
+    "id": "iv2024-runtime-monitor",
+    "title": "Runtime Safety Monitoring for Perception Systems in Autonomous Vehicles",
+    "authors": ["Your Name", "Co-Author A", "Co-Author B"],
+    "venue": "IEEE IV 2024",
+    "year": 2024,
+    "abstract": "We propose a lightweight runtime monitor that detects distribution shift in LiDAR-based perception pipelines. Our approach combines conformal prediction with scene-graph consistency checks to flag safety-critical failures in real time, achieving 94.3% detection recall with sub-2ms overhead on embedded hardware.",
+    "links": {
+      "pdf": "https://arxiv.org/pdf/xxxx.xxxxx",
+      "doi": "https://doi.org/10.xxxx/xxxxx",
+      "arxiv": "https://arxiv.org/abs/xxxx.xxxxx",
+      "code": "https://github.com/yourname/safetymonitor"
+    }
+  },
+  {
+    "id": "itsc2023-scenediff",
+    "title": "Adversarial Scenario Generation for AV Safety Testing Using Diffusion Models",
+    "authors": ["Co-Author A", "Your Name", "Co-Author C"],
+    "venue": "ITSC 2023",
+    "year": 2023,
+    "abstract": "We introduce SceneDiff, a diffusion-based framework for generating naturalistic yet adversarial driving scenarios. By conditioning on traffic graph representations, SceneDiff exposes rare but safety-critical failure modes in end-to-end driving planners, outperforming prior GAN-based approaches by 31% on coverage metrics.",
+    "links": {
+      "pdf": "https://arxiv.org/pdf/xxxx.xxxxx",
+      "doi": "https://doi.org/10.xxxx/xxxxx",
+      "arxiv": "https://arxiv.org/abs/xxxx.xxxxx"
+    }
+  }
+]

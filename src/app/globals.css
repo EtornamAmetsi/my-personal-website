@@ -234,8 +234,15 @@ footer a:hover { color: var(--accent); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
-  .hero { flex-direction: column; gap: 20px; }
-  .project-grid { grid-template-columns: 1fr; }
+  .nav-logo {
+    font-size: 13px;
+  }
+  .nav-links {
+    gap: 16px;
+  }
+  .nav-links a {
+    font-size: 12px;
+  }
 }
 
 /* ── BLOG ── */

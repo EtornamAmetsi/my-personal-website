@@ -1,10 +1,12 @@
 import pubs from '@/data/publications.json'
 import projects from '@/data/projects.json'
 import posts from '@/data/posts.json'
+import Animations from '@/components/Animations'
 
 export default function Home() {
   return (
     <main>
+      <Animations />
       {/* HERO */}
       <div className="hero">
         <img
@@ -31,7 +33,7 @@ export default function Home() {
       </div>
 
       {/* RESEARCH */}
-      <section id="research">
+      <section id="research" className="fade-in">
         <div className="section-label">Research</div>
         <div className="section-title">Publications</div>
         <div className="pub-list">
@@ -60,7 +62,7 @@ export default function Home() {
       </section>
 
       {/* PROJECTS */}
-      <section id="projects">
+      <section id="projects" className="fade-in fade-in-delay-1">
         <div className="section-label">Engineering</div>
         <div className="section-title">Projects</div>
         <div className="project-grid">
@@ -86,7 +88,7 @@ export default function Home() {
       </section>
 
       {/* BLOG */}
-      <section id="blog">
+      <section id="blog" className="fade-in fade-in-delay-2">
         <div className="section-label">Writing</div>
         <div className="section-title">Blog</div>
         <div className="post-list">
@@ -104,7 +106,7 @@ export default function Home() {
       </section>
 
       {/* ABOUT */}
-      <section id="about">
+      <section id="about" className="fade-in fade-in-delay-3">
         <div className="section-label">About</div>
         <div className="section-title">Background</div>
         <p className="bio">
@@ -140,5 +142,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+
   )
 }
